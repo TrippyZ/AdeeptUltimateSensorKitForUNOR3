@@ -21,9 +21,9 @@ void setup()
 void loop() 
 { 
    int cm = ping(pingPin); 
-   Serial.print("distance: "); // Print a message of "Temp: "to the serial montiol.
-   Serial.print(cm);           // Print a centigrade temperature to the serial montiol. 
-   Serial.println(" cm");      // Print the unit of the centigrade temperature to the serial montiol.
+   Serial.print("Distance: "); // Print a message of "Distance: "to the serial monitor.
+   Serial.print(cm);           // Print the measurement to the serial monitor. 
+   Serial.println(" cm");      // Print the distance unit of the measurement to the serial monitor.
    delay(500);
 }
      
